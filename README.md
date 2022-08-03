@@ -22,6 +22,10 @@ Consider please that some technologies are not new for you but new for me.
 And of course, one of the main goals is to learn. That's why sometimes I will be not rational and will do some things just to try them out. 
 However, for documentation purposes I will keep track of all decisions I made and will write what exactly I would do in the real project. 
 
+## Got suggestion? Comment?
+
+Feel free to create a PR or create an issue if your got a suggestion regarding the feature to implement or technology to try out!
+
 
 ## What could you do with information used from this repo?
 
