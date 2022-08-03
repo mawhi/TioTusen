@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		574A5D8B289AF7F60019BCD9 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D8A289AF7F60019BCD9 /* Tests_iOS.swift */; };
+		574A5D8D289AF7F60019BCD9 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D8C289AF7F60019BCD9 /* Tests_iOSLaunchTests.swift */; };
+		574A5D97289AF7F60019BCD9 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D96289AF7F60019BCD9 /* Tests_macOS.swift */; };
+		574A5D99289AF7F60019BCD9 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D98289AF7F60019BCD9 /* Tests_macOSLaunchTests.swift */; };
+		574A5D9A289AF7F60019BCD9 /* TioTusen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D6F289AF7F40019BCD9 /* TioTusen.xcdatamodeld */; };
+		574A5D9B289AF7F60019BCD9 /* TioTusen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D6F289AF7F40019BCD9 /* TioTusen.xcdatamodeld */; };
+		574A5D9C289AF7F60019BCD9 /* TioTusenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D71289AF7F40019BCD9 /* TioTusenApp.swift */; };
+		574A5D9D289AF7F60019BCD9 /* TioTusenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D71289AF7F40019BCD9 /* TioTusenApp.swift */; };
+		574A5D9E289AF7F60019BCD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D72289AF7F40019BCD9 /* ContentView.swift */; };
+		574A5D9F289AF7F60019BCD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D72289AF7F40019BCD9 /* ContentView.swift */; };
+		574A5DA0289AF7F60019BCD9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D73289AF7F40019BCD9 /* Persistence.swift */; };
+		574A5DA1289AF7F60019BCD9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D73289AF7F40019BCD9 /* Persistence.swift */; };
+		574A5DA2289AF7F60019BCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574A5D74289AF7F50019BCD9 /* Assets.xcassets */; };
+		574A5DA3289AF7F60019BCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574A5D74289AF7F50019BCD9 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		574A5D87289AF7F60019BCD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 574A5D6A289AF7F40019BCD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574A5D78289AF7F50019BCD9;
+			remoteInfo = "TioTusen (iOS)";
+		};
+		574A5D93289AF7F60019BCD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 574A5D6A289AF7F40019BCD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574A5D7E289AF7F60019BCD9;
+			remoteInfo = "TioTusen (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		574A5D70289AF7F40019BCD9 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		574A5D71289AF7F40019BCD9 /* TioTusenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TioTusenApp.swift; sourceTree = "<group>"; };
+		574A5D72289AF7F40019BCD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		574A5D73289AF7F40019BCD9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		574A5D74289AF7F50019BCD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		574A5D79289AF7F50019BCD9 /* TioTusen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TioTusen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		574A5D7F289AF7F60019BCD9 /* TioTusen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TioTusen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		574A5D81289AF7F60019BCD9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		574A5D86289AF7F60019BCD9 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		574A5D8A289AF7F60019BCD9 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		574A5D8C289AF7F60019BCD9 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		574A5D92289AF7F60019BCD9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		574A5D96289AF7F60019BCD9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		574A5D98289AF7F60019BCD9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		574A5D76289AF7F50019BCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A5D7C289AF7F60019BCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A5D83289AF7F60019BCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A5D8F289AF7F60019BCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		574A5D69289AF7F40019BCD9 = {
+			isa = PBXGroup;
+			children = (
+				574A5D6E289AF7F40019BCD9 /* Shared */,
+				574A5D80289AF7F60019BCD9 /* macOS */,
+				574A5D89289AF7F60019BCD9 /* Tests iOS */,
+				574A5D95289AF7F60019BCD9 /* Tests macOS */,
+				574A5D7A289AF7F50019BCD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		574A5D6E289AF7F40019BCD9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				574A5D71289AF7F40019BCD9 /* TioTusenApp.swift */,
+				574A5D72289AF7F40019BCD9 /* ContentView.swift */,
+				574A5D73289AF7F40019BCD9 /* Persistence.swift */,
+				574A5D74289AF7F50019BCD9 /* Assets.xcassets */,
+				574A5D6F289AF7F40019BCD9 /* TioTusen.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		574A5D7A289AF7F50019BCD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574A5D79289AF7F50019BCD9 /* TioTusen.app */,
+				574A5D7F289AF7F60019BCD9 /* TioTusen.app */,
+				574A5D86289AF7F60019BCD9 /* Tests iOS.xctest */,
+				574A5D92289AF7F60019BCD9 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		574A5D80289AF7F60019BCD9 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				574A5D81289AF7F60019BCD9 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		574A5D89289AF7F60019BCD9 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				574A5D8A289AF7F60019BCD9 /* Tests_iOS.swift */,
+				574A5D8C289AF7F60019BCD9 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		574A5D95289AF7F60019BCD9 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				574A5D96289AF7F60019BCD9 /* Tests_macOS.swift */,
+				574A5D98289AF7F60019BCD9 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		574A5D78289AF7F50019BCD9 /* TioTusen (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574A5DA6289AF7F60019BCD9 /* Build configuration list for PBXNativeTarget "TioTusen (iOS)" */;
+			buildPhases = (
+				574A5D75289AF7F50019BCD9 /* Sources */,
+				574A5D76289AF7F50019BCD9 /* Frameworks */,
+				574A5D77289AF7F50019BCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TioTusen (iOS)";
+			productName = "TioTusen (iOS)";
+			productReference = 574A5D79289AF7F50019BCD9 /* TioTusen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		574A5D7E289AF7F60019BCD9 /* TioTusen (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574A5DA9289AF7F60019BCD9 /* Build configuration list for PBXNativeTarget "TioTusen (macOS)" */;
+			buildPhases = (
+				574A5D7B289AF7F60019BCD9 /* Sources */,
+				574A5D7C289AF7F60019BCD9 /* Frameworks */,
+				574A5D7D289AF7F60019BCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TioTusen (macOS)";
+			productName = "TioTusen (macOS)";
+			productReference = 574A5D7F289AF7F60019BCD9 /* TioTusen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		574A5D85289AF7F60019BCD9 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574A5DAC289AF7F60019BCD9 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				574A5D82289AF7F60019BCD9 /* Sources */,
+				574A5D83289AF7F60019BCD9 /* Frameworks */,
+				574A5D84289AF7F60019BCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574A5D88289AF7F60019BCD9 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 574A5D86289AF7F60019BCD9 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		574A5D91289AF7F60019BCD9 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574A5DAF289AF7F60019BCD9 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				574A5D8E289AF7F60019BCD9 /* Sources */,
+				574A5D8F289AF7F60019BCD9 /* Frameworks */,
+				574A5D90289AF7F60019BCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574A5D94289AF7F60019BCD9 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 574A5D92289AF7F60019BCD9 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		574A5D6A289AF7F40019BCD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					574A5D78289AF7F50019BCD9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					574A5D7E289AF7F60019BCD9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					574A5D85289AF7F60019BCD9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 574A5D78289AF7F50019BCD9;
+					};
+					574A5D91289AF7F60019BCD9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 574A5D7E289AF7F60019BCD9;
+					};
+				};
+			};
+			buildConfigurationList = 574A5D6D289AF7F40019BCD9 /* Build configuration list for PBXProject "TioTusen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 574A5D69289AF7F40019BCD9;
+			productRefGroup = 574A5D7A289AF7F50019BCD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				574A5D78289AF7F50019BCD9 /* TioTusen (iOS) */,
+				574A5D7E289AF7F60019BCD9 /* TioTusen (macOS) */,
+				574A5D85289AF7F60019BCD9 /* Tests iOS */,
+				574A5D91289AF7F60019BCD9 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		574A5D77289AF7F50019BCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A5DA2289AF7F60019BCD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A5D7D289AF7F60019BCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A5DA3289AF7F60019BCD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A5D84289AF7F60019BCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A5D90289AF7F60019BCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		574A5D75289AF7F50019BCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A5D9C289AF7F60019BCD9 /* TioTusenApp.swift in Sources */,
+				574A5DA0289AF7F60019BCD9 /* Persistence.swift in Sources */,
+				574A5D9A289AF7F60019BCD9 /* TioTusen.xcdatamodeld in Sources */,
+				574A5D9E289AF7F60019BCD9 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A5D7B289AF7F60019BCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A5D9D289AF7F60019BCD9 /* TioTusenApp.swift in Sources */,
+				574A5DA1289AF7F60019BCD9 /* Persistence.swift in Sources */,
+				574A5D9B289AF7F60019BCD9 /* TioTusen.xcdatamodeld in Sources */,
+				574A5D9F289AF7F60019BCD9 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A5D82289AF7F60019BCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A5D8D289AF7F60019BCD9 /* Tests_iOSLaunchTests.swift in Sources */,
+				574A5D8B289AF7F60019BCD9 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A5D8E289AF7F60019BCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A5D99289AF7F60019BCD9 /* Tests_macOSLaunchTests.swift in Sources */,
+				574A5D97289AF7F60019BCD9 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		574A5D88289AF7F60019BCD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574A5D78289AF7F50019BCD9 /* TioTusen (iOS) */;
+			targetProxy = 574A5D87289AF7F60019BCD9 /* PBXContainerItemProxy */;
+		};
+		574A5D94289AF7F60019BCD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574A5D7E289AF7F60019BCD9 /* TioTusen (macOS) */;
+			targetProxy = 574A5D93289AF7F60019BCD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		574A5DA4289AF7F60019BCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		574A5DA5289AF7F60019BCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		574A5DA7289AF7F60019BCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HTGS4KA9H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mawhiStudio.tioTusen;
+				PRODUCT_NAME = TioTusen;
+				PROVISIONING_PROFILE_SPECIFIER = "TioTusen - iOS - Dev";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		574A5DA8289AF7F60019BCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mawhiStudio.tioTusen;
+				PRODUCT_NAME = TioTusen;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		574A5DAA289AF7F60019BCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HTGS4KA9H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mawhiStudio.TioTusen;
+				PRODUCT_NAME = TioTusen;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		574A5DAB289AF7F60019BCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HTGS4KA9H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mawhiStudio.TioTusen;
+				PRODUCT_NAME = TioTusen;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		574A5DAD289AF7F60019BCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HTGS4KA9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mawhiStudio.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TioTusen (iOS)";
+			};
+			name = Debug;
+		};
+		574A5DAE289AF7F60019BCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HTGS4KA9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mawhiStudio.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TioTusen (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		574A5DB0289AF7F60019BCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HTGS4KA9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mawhiStudio.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TioTusen (macOS)";
+			};
+			name = Debug;
+		};
+		574A5DB1289AF7F60019BCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HTGS4KA9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mawhiStudio.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TioTusen (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		574A5D6D289AF7F40019BCD9 /* Build configuration list for PBXProject "TioTusen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574A5DA4289AF7F60019BCD9 /* Debug */,
+				574A5DA5289AF7F60019BCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574A5DA6289AF7F60019BCD9 /* Build configuration list for PBXNativeTarget "TioTusen (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574A5DA7289AF7F60019BCD9 /* Debug */,
+				574A5DA8289AF7F60019BCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574A5DA9289AF7F60019BCD9 /* Build configuration list for PBXNativeTarget "TioTusen (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574A5DAA289AF7F60019BCD9 /* Debug */,
+				574A5DAB289AF7F60019BCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574A5DAC289AF7F60019BCD9 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574A5DAD289AF7F60019BCD9 /* Debug */,
+				574A5DAE289AF7F60019BCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574A5DAF289AF7F60019BCD9 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574A5DB0289AF7F60019BCD9 /* Debug */,
+				574A5DB1289AF7F60019BCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		574A5D6F289AF7F40019BCD9 /* TioTusen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				574A5D70289AF7F40019BCD9 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 574A5D70289AF7F40019BCD9 /* Shared.xcdatamodel */;
+			path = TioTusen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 574A5D6A289AF7F40019BCD9 /* Project object */;
+}
