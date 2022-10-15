@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5704414428FB1C46008AADCD /* TargetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704414328FB1C46008AADCD /* TargetsView.swift */; };
+		5704414528FB1C46008AADCD /* TargetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704414328FB1C46008AADCD /* TargetsView.swift */; };
+		5704414728FB1C50008AADCD /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704414628FB1C50008AADCD /* ActivitiesView.swift */; };
+		5704414828FB1C50008AADCD /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704414628FB1C50008AADCD /* ActivitiesView.swift */; };
+		5704414D28FB2003008AADCD /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704414C28FB2003008AADCD /* Target.swift */; };
+		5704414E28FB2003008AADCD /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704414C28FB2003008AADCD /* Target.swift */; };
+		5704415028FB20C4008AADCD /* TargetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704414F28FB20C4008AADCD /* TargetsManager.swift */; };
+		5704415128FB20C4008AADCD /* TargetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704414F28FB20C4008AADCD /* TargetsManager.swift */; };
+		5704415328FB2A30008AADCD /* TargetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704415228FB2A30008AADCD /* TargetRow.swift */; };
+		5704415428FB2A30008AADCD /* TargetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704415228FB2A30008AADCD /* TargetRow.swift */; };
+		5704415628FB333F008AADCD /* TargetControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704415528FB333F008AADCD /* TargetControlButton.swift */; };
+		5704415728FB333F008AADCD /* TargetControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704415528FB333F008AADCD /* TargetControlButton.swift */; };
 		574A5D8B289AF7F60019BCD9 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D8A289AF7F60019BCD9 /* Tests_iOS.swift */; };
 		574A5D8D289AF7F60019BCD9 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D8C289AF7F60019BCD9 /* Tests_iOSLaunchTests.swift */; };
 		574A5D97289AF7F60019BCD9 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D96289AF7F60019BCD9 /* Tests_macOS.swift */; };
@@ -15,8 +27,8 @@
 		574A5D9B289AF7F60019BCD9 /* TioTusen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D6F289AF7F40019BCD9 /* TioTusen.xcdatamodeld */; };
 		574A5D9C289AF7F60019BCD9 /* TioTusenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D71289AF7F40019BCD9 /* TioTusenApp.swift */; };
 		574A5D9D289AF7F60019BCD9 /* TioTusenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D71289AF7F40019BCD9 /* TioTusenApp.swift */; };
-		574A5D9E289AF7F60019BCD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D72289AF7F40019BCD9 /* ContentView.swift */; };
-		574A5D9F289AF7F60019BCD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D72289AF7F40019BCD9 /* ContentView.swift */; };
+		574A5D9E289AF7F60019BCD9 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D72289AF7F40019BCD9 /* MainContentView.swift */; };
+		574A5D9F289AF7F60019BCD9 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D72289AF7F40019BCD9 /* MainContentView.swift */; };
 		574A5DA0289AF7F60019BCD9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D73289AF7F40019BCD9 /* Persistence.swift */; };
 		574A5DA1289AF7F60019BCD9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A5D73289AF7F40019BCD9 /* Persistence.swift */; };
 		574A5DA2289AF7F60019BCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574A5D74289AF7F50019BCD9 /* Assets.xcassets */; };
@@ -41,9 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5704414328FB1C46008AADCD /* TargetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetsView.swift; sourceTree = "<group>"; };
+		5704414628FB1C50008AADCD /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
+		5704414C28FB2003008AADCD /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		5704414F28FB20C4008AADCD /* TargetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetsManager.swift; sourceTree = "<group>"; };
+		5704415228FB2A30008AADCD /* TargetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetRow.swift; sourceTree = "<group>"; };
+		5704415528FB333F008AADCD /* TargetControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetControlButton.swift; sourceTree = "<group>"; };
 		574A5D70289AF7F40019BCD9 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		574A5D71289AF7F40019BCD9 /* TioTusenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TioTusenApp.swift; sourceTree = "<group>"; };
-		574A5D72289AF7F40019BCD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		574A5D72289AF7F40019BCD9 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 		574A5D73289AF7F40019BCD9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		574A5D74289AF7F50019BCD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		574A5D79289AF7F50019BCD9 /* TioTusen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TioTusen.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +107,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5704414028FAFD83008AADCD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5704414A28FB1DDE008AADCD /* Activities */,
+				5704414928FB1DD7008AADCD /* Targets */,
+				574A5D72289AF7F40019BCD9 /* MainContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5704414128FB0064008AADCD /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5704414F28FB20C4008AADCD /* TargetsManager.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5704414228FB006B008AADCD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				574A5D73289AF7F40019BCD9 /* Persistence.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5704414928FB1DD7008AADCD /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				5704414C28FB2003008AADCD /* Target.swift */,
+				5704414328FB1C46008AADCD /* TargetsView.swift */,
+				5704415228FB2A30008AADCD /* TargetRow.swift */,
+				5704415528FB333F008AADCD /* TargetControlButton.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		5704414A28FB1DDE008AADCD /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				5704414628FB1C50008AADCD /* ActivitiesView.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
 		574A5D69289AF7F40019BCD9 = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +166,10 @@
 		574A5D6E289AF7F40019BCD9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5704414228FB006B008AADCD /* Services */,
+				5704414128FB0064008AADCD /* Domain */,
+				5704414028FAFD83008AADCD /* Screens */,
 				574A5D71289AF7F40019BCD9 /* TioTusenApp.swift */,
-				574A5D72289AF7F40019BCD9 /* ContentView.swift */,
-				574A5D73289AF7F40019BCD9 /* Persistence.swift */,
 				574A5D74289AF7F50019BCD9 /* Assets.xcassets */,
 				574A5D6F289AF7F40019BCD9 /* TioTusen.xcdatamodeld */,
 			);
@@ -308,9 +372,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				574A5D9C289AF7F60019BCD9 /* TioTusenApp.swift in Sources */,
+				5704415328FB2A30008AADCD /* TargetRow.swift in Sources */,
 				574A5DA0289AF7F60019BCD9 /* Persistence.swift in Sources */,
+				5704414D28FB2003008AADCD /* Target.swift in Sources */,
+				5704414428FB1C46008AADCD /* TargetsView.swift in Sources */,
+				5704415028FB20C4008AADCD /* TargetsManager.swift in Sources */,
+				5704415628FB333F008AADCD /* TargetControlButton.swift in Sources */,
+				5704414728FB1C50008AADCD /* ActivitiesView.swift in Sources */,
 				574A5D9A289AF7F60019BCD9 /* TioTusen.xcdatamodeld in Sources */,
-				574A5D9E289AF7F60019BCD9 /* ContentView.swift in Sources */,
+				574A5D9E289AF7F60019BCD9 /* MainContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,9 +389,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				574A5D9D289AF7F60019BCD9 /* TioTusenApp.swift in Sources */,
+				5704415428FB2A30008AADCD /* TargetRow.swift in Sources */,
 				574A5DA1289AF7F60019BCD9 /* Persistence.swift in Sources */,
+				5704414E28FB2003008AADCD /* Target.swift in Sources */,
+				5704414528FB1C46008AADCD /* TargetsView.swift in Sources */,
+				5704415128FB20C4008AADCD /* TargetsManager.swift in Sources */,
+				5704415728FB333F008AADCD /* TargetControlButton.swift in Sources */,
+				5704414828FB1C50008AADCD /* ActivitiesView.swift in Sources */,
 				574A5D9B289AF7F60019BCD9 /* TioTusen.xcdatamodeld in Sources */,
-				574A5D9F289AF7F60019BCD9 /* ContentView.swift in Sources */,
+				574A5D9F289AF7F60019BCD9 /* MainContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +560,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -515,7 +591,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
